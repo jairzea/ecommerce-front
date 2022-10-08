@@ -1,0 +1,26 @@
+/*===========================
+BARRA PRODUCTOS
+===========================*/
+
+.barraProductos .organizarProductos span{
+	margin-left: 5px;
+}
+
+.well-sm {
+    padding: 9px;
+    border-radius: 3px;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.btn-default {
+	background-color: white;
+}
