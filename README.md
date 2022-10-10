@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 > > then save it as .env, skipping the .example
 > > you can leave the base path set (REACT_APP_PATH_BASE), if you don't change it in the backend
 
+_If you run the backend locally with the php artisan serve command, it will most likely run on the domain: http://127.0.0.1:8000_
+
 In the project directory, you can run:
 
 > Installation

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Swal from "sweetalert2";
 
-import Header from "../components/Header/Header";
+import Header from "../components/Header";
 import Home from "../pages/Home";
 import Login from "../components/Login";
 import ProductManagement from "../pages/Management/components/ProductManagement";
