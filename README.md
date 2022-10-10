@@ -4,7 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+> > Modify the .env.example file, adding in REACT_APP_BACKEND_DOMAIN the domain or base url of the backend.
+> > then save it as .env, skipping the .example
+> > you can leave the base path set (REACT_APP_PATH_BASE), if you don't change it in the backend
+
 In the project directory, you can run:
+
+> Installation
+
+### `npm install` or `npm i`
+
+> Launch the app
 
 ### `npm start`
 
