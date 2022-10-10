@@ -3,10 +3,10 @@ import "./styles.css";
 
 const Banner = () => {
   return (
-    <figure class="banner">
-      <img src={banner} alt="banner" class="img-responsive" width="100%" />
+    <figure className="banner">
+      <img src={banner} alt="banner" className="img-responsive" width="100%" />
 
-      <div class="textoBanner textoDer">
+      <div className="textoBanner textoDer">
         <h1 style={{ color: "#fff" }}>OFERTAS ESPECIALES</h1>
 
         <h2 style={{ color: "#fff" }}>

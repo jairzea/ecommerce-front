@@ -2,11 +2,11 @@
 import Banner from "./Banner/Banner";
 import ProducSection from "./ProductSection/ProductSection";
 
-const Body = () => {
+const Body = ({ validateSession }) => {
   return (
     <>
       <Banner />
-      <ProducSection />
+      <ProducSection validateSession={validateSession} />
     </>
   );
 };

@@ -1,9 +1,9 @@
 import Body from "../../components/Body";
 
-const Home = () => {
+const Home = ({ validateSession }) => {
   return (
     <>
-      <Body />
+      <Body validateSession={validateSession} />
     </>
   );
 };
