@@ -7,9 +7,11 @@ import {
   toastSuccessAlert,
 } from "../../utils/sweet.alert.utils";
 import "./styles.css";
+// import SummaryOrders from "../../pages/SummaryOrders/SummaryOrders";
 
 const Login = ({ product }) => {
   const [sumaryOrder, setSumatyOrder] = useState(false);
+  console.log(sumaryOrder);
 
   const handleActionSubmit = async () => {
     const credentials = {
@@ -72,7 +74,7 @@ const Login = ({ product }) => {
             >
               Iniciar sesión
             </button>
-            <Link>
+            <Link to="/sign-up" onClick={() => setSumatyOrder(true)}>
               <p className="mt-5 mb-3 float-end">Registrarse</p>
             </Link>
           </form>

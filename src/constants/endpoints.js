@@ -1,5 +1,7 @@
 export const LOGIN = "/auth/authentication";
 
+export const SIGN_UP = "/auth/signup";
+
 export const PRODUCTS = (offset = 1, limit = 6) =>
   `/products?offset=${offset}&limit=${limit}`;
 

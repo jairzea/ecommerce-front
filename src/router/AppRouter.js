@@ -15,6 +15,7 @@ import { toastErrorAlert, toastSuccessAlert } from "../utils/sweet.alert.utils";
 import { createNewOrder } from "../services/api/orders/order";
 import { PrivateRouter } from "./PrivateRouter";
 import PaymentGatewayResponse from "../pages/Response";
+import SignUp from "../components/SingUp";
 
 export const AppRouter = () => {
   const [showModalLogin, setShowModalLogin] = useState(false);
@@ -95,6 +96,7 @@ export const AppRouter = () => {
           }
         />
         <Route path="/login" element={<Login show={true} />} />
+        <Route path="/sign-up" element={<SignUp show={true} />} />
         <Route
           path="/payment-gateway-response"
           element={<PaymentGatewayResponse />}
